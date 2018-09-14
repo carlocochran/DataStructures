@@ -1,4 +1,4 @@
-public class QueueNew {
+public class Queue {
 	
 	private static final int SIZE = 4;
 	private Node[] nodes = new Node[SIZE];
@@ -63,7 +63,7 @@ public class QueueNew {
 	}
 	
 	public static void main (String[] args) throws Exception{
-		QueueNew q = new QueueNew();
+		Queue q = new Queue();
 		q.enqueue(new Node("a", "b"));
 		q.enqueue(new Node("d", "e"));
 		q.enqueue(new Node("f", "e"));		
